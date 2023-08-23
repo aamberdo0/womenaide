@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="./donation/donation-style.css">
+    <script src="https://kit.fontawesome.com/cc63fd1b91.js" crossorigin="anonymous"></script>
+</head>
+    <body>
+        <script src="./includes/header.js"></script>
+        <div class="container">
+            <div class="first">
+                <div class="firstheader">
+                    <div class="first-header">
+                        <h2 class="impacts">Make a difference</h2>  
+                    </div>
+                    <div class="second-header">
+                        <p id="header-description">Your donation can make a powerful impact in the lives of women 
+                            in need. Together, we can  build a stronger, more  inclusive future. 
+                            Donate today and make a difference in the lives of women in your
+                             community and beyond</p>
+                        <button class="join">Donate Now</button>
+                    </div>
+                </div>
+                    <img class="banner"src="../pictures/donation/donation-img.png">      
+            </div>
+        </div>
+        <div class="second">
+            <h3 class="donation-guidelines">Donation Guidelines</h3>
+            <div class="guidelines">
+                <div class="rules">
+                    <p class="no">No</p>
+                    <p>Hotel sized toilettes</p>
+                </div>
+                <div class="rules">
+                    <p class="no">No</p>
+                    <p>previously used products</p>
+                </div>
+                <div class="rules">
+                    <p class="no">No</p>
+                    <p>expired products</p>
+                </div>
+                <div class="rules">
+                    <p class="no">No</p>
+                    <p>cash</p>
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <h2 class="impacts" id="support">How to support ?</h2>  
+            <div class="overall-div">
+                <div class="first-div">
+                    <p class="donation-description">Helping women escape domestic violence and find safety is crucial. 
+                        WomenAide collects and delivers goods-in kind items in raising 
+                        awareness and providing support to those in need.</p>
+                    <div class="icontext-div">
+                        <div class="family">
+                            <img id="family" class="icon" src="./pictures/donation/family.png">
+                            <p id="family-text" class="support">Family staying in<br> the shelter</p>
+                        </div>
+                        <div class="support-kit">
+                            <img  class="icon" src="./pictures/donation/support.png">
+                            <p class="support">Support Kit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="calendar-container">
+                    <div class="hour-container">
+                        <h3>Drop Off Hours</h3>
+                        <h4>Monday - Friday</h4>
+                        <p>8am - 8pm</p>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div class="third" id="four">
+            <h2 class="impacts" id="support">"goods-in-kind"</h2> 
+            <p class="what">We only accept donation that fall under these categories</p>
+            <div class="goods-list">
+                <div class="three-first">
+                    <div class="goods" id="canned-f">
+                        <img class="goods-img" src="../pictures/donation/canned.png">
+                        <p class="goods-title">Canned <br> foods</p>
+                        <button class="join canned" value="canned"onclick="revealButton(this.value);">Click Twice</button>
+                    </div>
+                    <div class="goods">
+                        <img class="goods-img" id="school"src="../pictures/donation/school-supplies.png">
+                        <p class="goods-title">School <br> supplies</p>
+                        <button class="join school" value="school" onclick="revealButton(this.value);" 
+                        >Click Twice</button>
+                    </div>
+                    <div class="goods">
+                        <img class="goods-img"src="../pictures/donation/household.png">
+                        <p class="goods-title">Household <br> products</p>
+                        <button class="join household" value="household" 
+                        onclick="revealButton(this.value);" >Click Twice</button>
+                    </div>
+                </div>
+                <div class="two-left">
+                    <div class="goods">
+                        <img class="goods-img" src="../pictures/donation/hygiene-products.png">
+                        <p class="goods-title">Hygiene <br>products</p>
+                        <button class="join hygiene"value="hygiene" onclick="revealButton(this.value);">Click Twice</button>
+                    </div>
+                    <div class="goods">
+                        <img class="goods-img" src="../pictures/donation/infants.png">
+                        <p class="goods-title">Infant <br>products</p>
+                        <button class="join infant" value="infant"onclick="revealButton(this.value);">Click Twice</button>
+                    </div>
+                </div>
+            </div>
+            <div class="show-content">
+                <div class="goods-list school-list" >
+                    <div class="three-first">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/eraser.png">
+                            <p class="goods-title">Eraser</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/notebook.png">
+                            <p class="goods-title">Exercise <br>Books</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/paper.png">
+                            <p class="goods-title">Loose-leaf <br> paper</p>
+                        </div>
+                    </div>
+                    <div class="two-left">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/pen.png">
+                            <p class="goods-title">Pen/ Pencil</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/binder.png">
+                            <p class="goods-title">Binder</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-list household-list" >
+                    <div class="three-first">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/tissue.png">
+                            <p class="goods-title">Tissue</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/detergent.png">
+                            <p class="goods-title">Laundry <br>detergent</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/paper.png">
+                            <p class="goods-title">Paper <br> towels</p>
+                        </div>
+                    </div>
+                    <div class="two-left">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/dish-soap.png">
+                            <p class="goods-title">Dish <br> soap</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/gloves.png">
+                            <p class="goods-title">Rubber <br> gloves</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-list canned-list" >
+                    <div class="three-first">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/tuna.png">
+                            <p class="goods-title">Tins of <br>soup/tuna</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-list infant-list" >
+                    <div class="three-first">
+                        <div class="goods">
+                            <img class="goods-img" src="./pictures/diaper.png">
+                            <p class="goods-title">Diapers</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="./pictures/wipers.png">
+                            <p class="goods-title">Baby <br>wipes</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="./pictures/formula.png">
+                            <p class="goods-title">Baby <br>formula </p>
+                        </div>
+                    </div>
+                    <div class="two-left">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/food.png">
+                            <p class="goods-title">Baby<br> food</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/pacifier.png">
+                            <p class="goods-title">Pacifiers</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods-list hygiene-list" >
+                    <div class="three-first">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/soap.png">
+                            <p class="goods-title">Soap</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/lotion.png">
+                            <p class="goods-title">Lotion</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/protect.png">
+                            <p class="goods-title">Feminine<br>protection</p>
+                        </div>
+                    </div>
+                    
+                    <div class="two-left">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/swab.png">
+                            <p class="goods-title">Cotton <br>swabs </p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/tooth.png">
+                            <p class="goods-title">Toothpaste <br> Toothbrush </p>
+                        </div>
+                        
+                    </div>
+                    <div class="two-left">
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/toilet-tissue.png">
+                            <p class="goods-title">Toilet<br> tissue</p>
+                        </div>
+                        <div class="goods">
+                            <img class="goods-img" src="../pictures/donation/shampoo.png">
+                            <p class="goods-title">Shampoo</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fourth">
+            <div class="highlight">
+                <img class="last" src="../pictures/donation/last.png">
+                <p class="last-text">On July 2010,
+                    <span>Nicky Traikos</span> of Mango Tango Make-Up Design raises 
+                    <span>over 900</span> items for WomenAide.</p>
+            </div>
+        </div>
+</body>
+<script src="./donation/index.js"></script>
+<footer>
+    <script src="../includes/footer.js"></script>
+    </footer>
+</html>

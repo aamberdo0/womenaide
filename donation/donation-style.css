@@ -1,0 +1,346 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;400&display=swap');
+
+  p,h4{
+    font-weight: 100;
+  }
+*{
+   margin:0; 
+   padding:0; 
+   font-family: 'Geologica', sans-serif;
+   font-size:16px;
+   box-sizing: border-box;
+   overflow-x:hidden;
+}
+
+.first{
+    width:100%;
+    gap:20px;
+    display:flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    padding:20px 0px;
+}
+.firstheader{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Paytone One', sans-serif;
+    width:62vw;
+    text-align: center;
+}
+.impacts{
+  font-family: 'Paytone One', sans-serif;
+  margin-bottom:20px;
+  color:#E75AA1;
+  font-size: 4vw;
+}
+.first-header{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+ 
+}
+.small-changes{
+  color:#595758;
+  font-size:3.5vw;
+  font-family: 'Paytone One', sans-serif;
+} 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:70px;
+}
+
+.banner{
+  width: 200px;
+  height:auto;
+
+}
+
+.join{
+  margin-bottom:20px;
+  background-color:#FFC0CB;
+  color:black;
+  border-style: none;
+  overflow:hidden;
+  margin-top:20px;
+  border-radius:5px;
+  font-size:18px;
+  width:130px;
+  height:50px;
+  cursor: pointer;
+  
+}
+#header-description{
+  font-size:20px;
+}
+.second{
+  background-color:#8C001A;
+  color:white;
+  padding:15px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:15px;
+}
+.guidelines{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.rules{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+}
+.donation-guidelines,.no{
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+  font-size:18px;
+}
+.rules p{
+  font-size:20px;
+}
+
+.icon{
+  width:120px;
+}
+#family{
+  width:100px;
+}
+#family-text{
+  padding-top:15px;
+}
+.hour-container{
+  padding:34px; 
+  background-color:#B76E79;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius:8px;
+  color:white;
+  gap:16px;
+}
+#support{
+  text-align: center;
+}
+.overall-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly
+}
+.first-div{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px;
+}
+.third{
+  display:flex;
+  flex-direction: column;
+  padding:20px 0px; 
+}
+.donation-description{
+  margin:20px;
+  font-size:20px;
+}
+.icontext-div{
+  display: flex;
+  flex-direction: row;
+  gap:123px;
+}
+.support{
+  text-align: center;
+}
+#four{
+  background-color: #FFDBDA;
+  gap:30px;
+  align-items: center;
+  padding:20px 0px 0px 0px; 
+}
+.what{
+  text-align: center;
+  font-size:20px;
+}
+.goods-list{
+  display: flex;
+  flex-direction: row;
+  gap:73px;
+  align-items: center;
+}
+.three-first, .two-left{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:75px;
+}
+.goods{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:15px;
+  text-align: center;
+  font-size:18px;
+}
+.goods-img{
+  width:135px;
+}
+.goods-title{
+  font-size:20px;
+}
+#school{
+  width:140px;
+}
+
+.show-content{
+  background-color: white;
+  width:100%;
+}
+.goods-list.school-list,.goods-list.household-list,
+.goods-list.canned-list,.goods-list.infant-list,.goods-list.hygiene-list{
+  justify-content: center;
+  gap:60px; 
+  padding:20px 0px;
+  display:none;
+}
+.goods-list.hygiene-list{
+  flex-direction: column;
+  gap:28px;
+}
+
+.fourth{
+  background-color: #B76E79;
+  color:white;
+
+}
+.highlight{
+  display: flex;
+  flex-direction: row;
+  gap:20px;
+  align-items: center;
+  padding:60px;
+}
+.last{
+  width:800px;
+}
+.last-text{
+  font-size:27px;
+  margin:0px 20px;
+  text-align: center;
+  line-height:60px;
+}
+span{
+  font-size:27px;
+  background-color: #FFC0CB;
+  color:black;
+  padding:6px;
+}
+@media (max-width: 1005px){
+  .goods-list{
+    flex-direction: column;
+  }
+  .three-first, .two-left{
+    gap:110px;
+  }
+  .highlight{
+    flex-direction: column;
+  }
+  .last{
+    width:600px;
+  }
+
+}
+
+@media (max-width: 835px) {
+  .first-header{
+    align-items: center;
+    gap:10px;
+   
+ }
+ .second-header{
+     display: flex;
+     flex-direction: column;
+     gap:8px;
+     align-items: center;
+     text-align: center;
+ }
+ .banner{
+     width:200px;
+     margin:0 auto;
+     text-align: center;
+ }
+  .join{
+    width:135px;
+    height:50px;
+  }
+  .impacts{
+    font-size:8vw;
+  }
+  .calendar-container{
+    margin-bottom:30px;
+    gap:10px;  
+  }
+  .overall-div{
+    flex-direction: column;
+    align-items: center;
+    gap:25px;
+  }
+  .first-div{
+    width:100%;
+  }
+  .donation-description{
+    text-align: center;
+    margin:0px 60px;
+  }
+  .last{
+    width:500px; 
+  }
+}
+
+@media (max-width: 570px){
+  .first{
+    top:170px;
+  }
+  .last{
+    width:100%; 
+  }
+}
+@media(max-width:635px){
+
+  .three-first,.two-left{
+    flex-direction: column;
+    gap:40px;
+  }
+}
+@media(max-width:500px){
+  .impacts{
+    font-size:10vw;
+  }
+  .donation-description{
+    margin:0px 15px;
+  }
+  .icontext-div{
+    gap:20vw;
+  }
+  
+}
+@media(max-width:480px){
+  .highlight{
+    padding:30px;
+  }
+  .last-text,span{
+    font-size: 6vw;
+    line-height: 50px;
+  }
+}
+@media(max-width:350px){
+  .icontext-div{
+    flex-direction: column;
+  }
+}

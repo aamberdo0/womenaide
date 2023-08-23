@@ -1,0 +1,425 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;400&display=swap');
+
+  p{
+    font-weight: 100;
+  }
+/*1135 - 1042 */
+*{
+   margin:0; 
+   padding:0; 
+   font-family: 'Geologica', sans-serif;
+   font-size:16px;
+   box-sizing: border-box;
+   overflow-x:hidden;
+}
+
+.first{
+    width:100%;
+    top:130px;
+    display:flex;
+    align-items: center; 
+}
+.firstheader{
+    display:flex;
+    flex-direction: column;
+    font-family: 'Paytone One', sans-serif;
+
+}
+.impacts{
+  font-family: 'Paytone One', sans-serif;
+  margin-top:5px;
+  margin-bottom:20px;
+  color:#E75AA1;
+  font-size:50px;
+}
+.first-header{
+    display: flex;
+    flex-direction: column;
+    margin-top:20px;
+ 
+}
+.small-changes{
+  color:#595758;
+  font-size:40px;
+  font-family: 'Paytone One', sans-serif;
+} 
+.banner{
+    width: 70%;
+    height:auto;
+}
+#join{
+  margin-bottom:20px;
+  background-color:#262D33 ;
+  color:white;
+  border-style: none;
+  overflow:hidden;
+  width:110px;
+  height:30px;
+  margin-top:20px;
+  border-radius:5px;
+}
+
+.second{
+  padding: 36px 10px;
+  width:100%;
+  background-color: #FFE4F3;
+}
+.events{
+  text-align: center;
+  font-size:50px;
+  font-family: 'Paytone One', sans-serif;
+  color:#E75AA1;
+}
+/* Flexbox layout */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top:70px;
+}
+.third-header{
+  display:flex;
+  flex-direction: row;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:3vw;
+  margin-top:50px;
+}
+.image-container{
+ text-align: center;
+}
+.calendar-container{
+  width:285px;
+  height:90px;
+  background-color:#B76E79;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius:8px;
+  color:white;
+  gap:8px;
+}
+#date{
+  font-weight: 400; 
+  font-size:20px;
+}
+.events-description{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap:14px;
+}
+h3{
+  font-size:27px;
+  font-weight: 100;
+}
+.news-h4{
+  color:white;
+  font-size:22px;
+  text-align: center;
+  padding:15px;
+}
+#events-info{
+  margin-right: 20px;;
+}
+.calendar{
+  padding:10px;
+  border:none;
+  border-radius: 6px;
+  background-color:#FFC0CB;
+}
+
+#fourth{
+  padding-top:38px;
+}
+.news{
+  width:38vh;
+  margin:0 auto; 
+  padding-top:20px;
+  display:block;
+}
+#fifthheader .news{
+  width:116vh;
+  display:block;
+}
+#third{
+  background-color: white;
+}
+.fourth-header{
+  width:68vh ;
+  height:auto;
+  overflow:hidden;
+  display:flex;
+  flex-direction: column;
+  background-color: #B76E79;
+  color:white;
+}
+.news-container{
+  display:flex;
+  flex-direction: column;
+}
+#thirdheader,#fifthheader{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap:40px
+}
+#news-p{
+  line-height: 27px;
+  padding:0px 30px 20px 20px;
+}
+#fifthheader{
+  width:465px;
+  gap:0px;
+}
+#fifthheader .news{
+  max-width:49vh;
+  margin:0 auto;
+  padding-top:27px;
+  border:none;
+
+}
+@media (max-width: 835px) {
+  .first-header{
+    align-items: center;
+    gap:10px;
+    margin-bottom:10px;
+ }
+ .second-header{
+     display: flex;
+     flex-direction: column;
+     gap:8px;
+     align-items: center;
+     text-align: center;
+ }
+ .banner{
+     width:100%;
+
+ }
+ .banner-div{
+     margin-top:10px;
+     max-width:400px;
+ }
+  #header-description{
+    font-size:20px;
+    
+  }
+  .third-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+  }
+ /* ok good with img, don't change */
+  .image-container{
+    width:30%;
+  }
+  .donation{
+    width:25vw;
+  }
+  .calendar-container{
+    margin-bottom:30px;
+    gap:10px;
+    width:170px;
+    
+  }
+  .events-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+  }
+  #events-info{
+    margin:0 20px;
+  }
+  #news-p{
+    text-align:center;
+  }
+ 
+}
+@media (max-width: 570px){
+
+ .div2{
+  padding-top:20px;
+ }
+ .first{
+    top:170px;
+ }
+ .image-container{
+  width:30%;
+}
+.donation{
+  width:25vw;
+}
+.events{
+  font-size:40px;
+}
+.fourth-header{
+  max-width:66vh; 
+}
+.news{
+  max-width:37vh;
+  padding-top:15px;
+}
+}
+@media(max-width:361px){
+    .first{
+        top:190px;
+     }
+     .image-container{
+      width:30%;
+    }
+    .donation{
+      width:25vw;
+    }
+    #header-description{
+      padding:0 47px;
+    }
+
+    
+}
+@media(max-width:348px){
+  #location{
+   padding-right:10px;
+  }
+  #header-description{
+    padding:0px 53px;
+  }
+  .image-container{
+    width:50%;
+  }
+  .donation{
+    width:40vw;
+  }
+  #fifthheader{
+    max-width:284px;
+  }
+  .fourth-header{
+    max-width:25vh;
+  }
+  .news{
+    max-width:17vh;
+  }
+  
+}
+@media(max-width:320px){
+  .news{
+    max-width:17vh; 
+
+  }
+  .fourth-header{
+    width:230px;
+  }
+  .small-changes{
+    font-size:35px;
+  }
+  .impacts{
+    font-size:40px;
+  }
+  #slogan{
+    padding:10px;
+  }
+
+}
+@media(max-width:420px){
+  h3{
+    text-align:center;
+  }
+}
+
+@media(max-width:925px){
+  .fourth-header{
+    display:flex;
+    flex-direction: column;
+    max-width:60vh;
+  }
+  .news{
+    width:39vh; 
+    padding-top:20px;
+    margin:0 auto; 
+
+  }
+
+}
+@media(max-width:755px){
+  .fourth-header{
+    width:376px;
+  }
+}
+
+@media(max-width:392px){
+  .fourth-header{
+    max-width:51vh;
+  }
+  .news{
+    max-width:38vh;
+    padding-top:20px;
+
+  }
+}
+@media(min-width:835px){
+  .banner{
+    width:100%; 
+    float:right;
+  }
+  .impacts{
+    font-size: 5vw;
+  }
+  .small-changes{
+    font-size:3.5vw;
+  }
+  #header-description{
+    font-size:1.5vw;
+  }
+  .firstheader{
+    width:62vw;
+    text-align: center;
+  }
+ 
+  #join{
+    font-size:larger;
+    width:130px;
+    height:50px;
+  }
+  .donation{
+    width:12vw; 
+  }
+  .image-container{
+    width:50%;
+  }
+  .calendar-container{
+    margin-left:8vw;
+  }
+}
+@media(max-width:489px){
+  .fourth-header{
+    width:376px;
+  }
+  #fifthheader{
+    width:344px;
+  }
+  #fifthheader .news{
+    width:40vh;
+    padding-top:27px;
+  }
+}
+
+@media(max-width:410px){
+  #fifthheader{
+    width:351px;
+  }
+  #fifthheader .news{
+    max-width:260px;
+    padding-top:20px;
+  }
+ 
+}
